@@ -6,7 +6,7 @@ plugins {
 node {
   version = '9.2.0'
   npmVersion = '6.4.1'
-  download = true
+  download = false
 }
 
 jar.dependsOn 'npm_run_build'
